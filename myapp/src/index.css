@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  place-items: center;
+  min-height: 100vh;
+  font-family: cursive;
+  background-color: #242424;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 1.1;
+  color: aqua;
+}
+.main {
+  font-size: 1.5rem;
+}
+h3{
+  color: greenyellow;
+}
+p {
+  color: aqua;
+}
+
+span {
+  color: rgb(255, 255, 55);
+}
+
+a {
+  text-decoration: none;
+  margin: 0px 7px;
+  color: rgb(255, 255, 55);
+}
+a:hover {
+  opacity: 0.8;
+  transition: 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+  .main {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  .main {
+    font-size: 0.7rem;
+  }
+}
